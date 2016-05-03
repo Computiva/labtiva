@@ -1,0 +1,20 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="acender_led" id="3" x="11" y="11">
+    <field name="cor_led">#ff0000</field>
+    <next>
+      <block type="delay" id="6">
+        <field name="milisegundos">1000</field>
+        <next>
+          <block type="apagar_led" id="9">
+            <field name="cor_led">#ff0000</field>
+            <next>
+              <block type="delay" id="12">
+                <field name="milisegundos">1000</field>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+</xml>

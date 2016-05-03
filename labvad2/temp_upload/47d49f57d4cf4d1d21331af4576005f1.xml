@@ -1,0 +1,36 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="led_rgb" id="4" x="59" y="35">
+    <field name="luzVermelha">#ff0000</field>
+    <field name="luzVerde">#ffffff</field>
+    <field name="luzAzul">#ffffff</field>
+    <next>
+      <block type="delay" id="15">
+        <field name="milisegundos">1000</field>
+        <next>
+          <block type="led_rgb" id="8">
+            <field name="luzVermelha">#ffffff</field>
+            <field name="luzVerde">#00ff00</field>
+            <field name="luzAzul">#ffffff</field>
+            <next>
+              <block type="delay" id="18">
+                <field name="milisegundos">1000</field>
+                <next>
+                  <block type="led_rgb" id="12">
+                    <field name="luzVermelha">#ffffff</field>
+                    <field name="luzVerde">#ffffff</field>
+                    <field name="luzAzul">#0000ff</field>
+                    <next>
+                      <block type="delay" id="21">
+                        <field name="milisegundos">1000</field>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+</xml>

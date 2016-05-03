@@ -1,0 +1,182 @@
+/*
+    Created on : 20/03/2014, 10:57:50
+    Author     : eek
+*/
+
+body {
+    padding-top: 50px;
+}
+.texto-direita { text-align: right }
+h1 { font-size: 1.5em; font-weight: bold; color: #2d96ff }
+.starter-template {
+    padding: 15px 15px;
+    margin-bottom: 15px;
+
+    border: 1px solid #CCC;
+    border-radius: 0 0 15px 15px;
+    border-top: none;
+}
+.navbar-inverse {
+    border: none;
+    /*border-bottom: 1px solid #333435;
+    -webkit-box-shadow: 0px 1px 1px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    0px 1px 1px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         0px 1px 1px 0px rgba(50, 50, 50, 0.75);*/
+}
+.navbar-collapse { height: 48px !important}
+.navbar-nav > li > a { color: #FFF !important; font-weight: bold; }
+.navbar-nav > li > a:hover { text-decoration: underline }
+.navbar-nav > li.active > a { background-color: #2d96ff !important; height: 44px; }
+.navbar-inverse .navbar-brand { color: #000 }
+.navbar { height: 56px; background: url(../img/sombra_nav.png) repeat-x bottom #2d96ff }
+.navbar-brand { width: 172px; height: 46px; text-align: center;
+color: #FFF !important; font-weight: bold; font-size: 1.9em }
+
+/*#lista-codigo { width: 250px; }*/
+#video { background: #C9C9C9; min-height: 509px }
+#lista-codigo .panel { min-height: 509px }
+#video video { margin-top: 8px; margin-left: 17px;  }
+.listagem-codigo { margin: 0; }
+.listagem-codigo .list-group-item { border: none; }
+.listagem-codigo li { display: block;  }
+.listagem-codigo li a.lkDiretoCodigo { display: inline-block; width: 93% }
+.listagem-codigo li .lkExclusaoCodigo a { display: inline-block; width: 18px; height: 18px; background: url(../img/lixeira.png) no-repeat }
+.listagem-codigo li .lkExclusaoCodigo a:hover { text-decoration: none; }
+
+.listagem-video { margin: 0; }
+.listagem-video .list-group-item { border: none; }
+.listagem-video li { display: block;  }
+.listagem-video li a.lkDiretoCodigo { display: inline-block; width: 93% }
+.listagem-video li .lkExclusaoVideo a { display: inline-block; width: 18px; height: 18px; background: url(../img/lixeira.png) no-repeat }
+.listagem-video li .lkExclusaoVideo a:hover { text-decoration: none; }
+
+.box-codigo { padding: 0; height: 470px; overflow: scroll}
+#lista-codigo .panel-heading { font-weight: bold; text-align: center }
+#adicionar-codigo { background: url(../img/file3.png) no-repeat 0; }
+#enviar-codigo { background: url(../img/cloud2.png) no-repeat 0; margin-left: 20px; }
+#propaganda span { width: 210px; height: 136px; }
+#propaganda span.logo1 { background: url(../img/logos.jpg) no-repeat -25px 0 }
+#propaganda span.logo2 { background: url(../img/logos.jpg) no-repeat -212px 0 }
+#propaganda span.logo3 { background: url(../img/logos.jpg) no-repeat -400px 0 }
+#propaganda span.logo4 { background: url(../img/logos.jpg) no-repeat -590px -12px }
+
+.box-visualiza-codigo { min-height: 250px; margin-right: 15px }
+.box-visualiza-codigo .panel-heading { background-color: #2d96ff; color: #000; font-weight: bold; }
+/* .btAcao { color: #FFF height: 32px; margin-left: 15px; padding-left: 100px; } */
+.btAcao { color: #FFF; }
+.box-visualiza-codigo .nav > li > a {
+    display: inline-block;
+    padding: 10px 35px 10px 35px;
+    margin-bottom: 5px;
+}
+.btAcao:hover { color: #FFF }
+#salvar-codigo { background: url(../img/disckette.png) no-repeat 0 0 }
+#executar-codigo { background: url(../img/config.png) no-repeat 0 3px }
+#editar-codigo { background: url(../img/page_white_edit.png) no-repeat 0 0 }
+#excluir-codigo { background: url(../img/delete.png) no-repeat 0 }
+#dowload-codigo { background: url(../img/cloud3.png) no-repeat 0 }
+#enviar-codigo-arduino { background: url(../img/cloud2.png) no-repeat 0 }
+#novo-codigo { background: url(../img/file3.png) no-repeat 0 }
+#codigo-exemplo { background: url(../img/folder.png) no-repeat 0 }
+#txtCodigo { width: 98%; min-height: 500px; margin: 5px; border: none }
+#txtNomeCodigo { width: 98%; margin: 5px }
+#formUploadCodigo { display: none }
+
+#msg-carregando { display: none; min-width: 100px; min-height: 20px; position: fixed; background-color: #0086c6; 
+text-align: right; top: 70px; right: 5px;  color: #FFF; font-weight: bold }
+.boxEsp #mensagem-local { color: #06F }
+
+
+/*AGENDAMENTO*/
+.fc-agendaDay-view .fc-day-grid div { display: none }
+.fc-time-grid-container tr { height: 40px }
+/*.fc-unthemed .fc-today { background-color: #2d96ff !important }*/
+
+
+/*MENU ACAO*/
+.menuFixo { position: fixed; top: 57px; width: 1092px; z-index: 900 }
+
+
+/*MENU*/
+div.collapse {
+    /*border: 1px solid blue;*/
+    height: auto !important;
+    background-color: #2d96ff;
+	border-bottom: 1px solid red;
+}
+div.collapse ul li { display: inline; }
+
+
+/*EDITOR*/
+.box-visualiza-codigo { min-height: 560px; }
+#editorCodigo { width: 95%; min-height: 500px; margin: 5px; border: none }
+#corUso { border: 1px solid silver; display: inline-block; width: 25px; border-radius: 50%; margin-right: 15px }
+.labLivre { background-color: green }
+.labEmUso { background-color: red }
+
+
+/*LOG*/
+#conteudoLog {
+    overflow-y: scroll;
+    height: 500px; 
+}
+
+
+/* GRAVAÇÃO DO VIDEO */
+.videocontroller {
+    border: 1px solid #000;
+    padding: 5px;
+    max-width: 600px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#record_button {
+    margin-left: 150px;
+    border: 1px solid #000;
+}
+
+
+/* TABS */
+.nav-tabs > li.rounded.active > a,
+.nav-tabs > li.rounded.active > a:hover,
+.nav-tabs > li.rounded.active > a:focus {
+    background-color: #2d96ff;
+    font-weight:bolder;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    color: #ffffff;
+}
+.nav-tabs > li.rounded > a {
+    background-color: #ffffff;
+    font-weight:normal;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    color: #000000;
+}
+
+/* As 3 definições abaixo previnem deslocamento da página para a direita quando uma janela modal do bootstrap é exibida */
+/* Está comentado porque deu problema no menu do db4k. 
+html {
+  overflow: hidden;
+  height: 100%;
+}
+*/
+body {
+  overflow: auto;
+  height: 100%;
+}
+.modal-open {
+ overflow: auto; 
+}
+
+/* ----- */
+
+/* Define transparência máxima no background das janelas modais */
+.modal-backdrop.in
+{
+    opacity:0.0 !important;
+    position:fixed;// This makes it cover the entire scrollable page, not just browser height
+    height:100%;
+}
+
+

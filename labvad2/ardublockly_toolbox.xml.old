@@ -1,0 +1,27 @@
+<xml>
+  <sep></sep>
+    <category name="LED">
+		<block type="acender_led"></block>
+		<block type="apagar_led"></block>
+	</category>
+  <sep></sep>
+  	<category name="Motores">
+	    <block type="mover_servomotor"></block>
+		<block type="girar_motor"></block>
+		<block type="parar_motor"></block>
+	</category>
+  <sep></sep>
+    <category name="Display">
+		<block type="escrever_lcd"></block>
+		<block type="limpar_lcd"></block>
+		<block type="escrever_display_7s"></block>
+		<block type="limpar_display_7s"></block>
+	</category>
+  <sep></sep>
+  <category name="Controle">
+  		<block type="delay"></block>
+		<block type="repetir"></block>
+  </category>
+
+
+</xml>

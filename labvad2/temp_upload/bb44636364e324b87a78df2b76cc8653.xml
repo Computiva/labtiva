@@ -1,0 +1,45 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="acender_led" id="4" x="-7" y="5">
+    <field name="cor_led">#ff0000</field>
+    <next>
+      <block type="delay" id="23">
+        <field name="milisegundos">3000</field>
+        <next>
+          <block type="apagar_led" id="27">
+            <field name="cor_led">#ff0000</field>
+            <next>
+              <block type="acender_led" id="31">
+                <field name="cor_led">#ffff00</field>
+                <next>
+                  <block type="delay" id="34">
+                    <field name="milisegundos">1000</field>
+                    <next>
+                      <block type="apagar_led" id="38">
+                        <field name="cor_led">#ffff00</field>
+                        <next>
+                          <block type="acender_led" id="42">
+                            <field name="cor_led">#00ff00</field>
+                            <next>
+                              <block type="delay" id="48">
+                                <field name="milisegundos">3000</field>
+                                <next>
+                                  <block type="apagar_led" id="52">
+                                    <field name="cor_led">#00ff00</field>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+</xml>

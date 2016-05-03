@@ -1,0 +1,15 @@
+pino_LED_verde=LED_VD1;
+pino_LED_amarelo=LED_AM1;
+pino_LED_vermelho=LED_VM1;
+pino_LED_branco=LED_AZ1;
+pino_Servo_Motor=SERVO;
+pino_MotorDC=MOTOR_DC;
+pino_rs=RS;
+pino_rw=RW;
+pino_enable=EN;
+pino_dados_4=D4;
+pino_dados_5=D5; 
+pino_dados_6=D6;
+pino_dados_7=D7;
+tamanho_linha_LCD=16;
+velocidade_serial=9600;

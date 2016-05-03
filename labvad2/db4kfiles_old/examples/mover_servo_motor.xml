@@ -1,0 +1,30 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="mover_servomotor" id="4" x="120" y="48">
+    <field name="posicao_ponteiro_servo">90</field>
+    <comment pinned="false" h="80" w="160">Move o Servo Motor para a posição indicada</comment>
+    <next>
+      <block type="delay" id="7">
+        <field name="milisegundos">1000</field>
+        <comment pinned="false" h="80" w="160">Espera o tempo indicado</comment>
+        <next>
+          <block type="mover_servomotor" id="11">
+            <field name="posicao_ponteiro_servo">0</field>
+            <comment pinned="false" h="80" w="160">Move o Servo Motor para a posição indicada</comment>
+            <next>
+              <block type="delay" id="14">
+                <field name="milisegundos">1000</field>
+                <comment pinned="false" h="80" w="160">Espera o tempo indicado</comment>
+                <next>
+                  <block type="mover_servomotor" id="18">
+                    <field name="posicao_ponteiro_servo">90</field>
+                    <comment pinned="false" h="80" w="160">Move o Servo Motor para a posição indicada</comment>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+</xml>

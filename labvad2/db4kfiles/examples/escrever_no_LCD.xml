@@ -1,0 +1,24 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="escrever_lcd" id="49" x="135" y="97">
+    <field name="texto">DB4K</field>
+    <field name="numero_linha">1</field>
+    <comment pinned="false" h="80" w="160">Escreve o texto indicado na linha indicada do LCD</comment>
+    <next>
+      <block type="delay" id="52">
+        <field name="milisegundos">1000</field>
+        <comment pinned="false" h="80" w="160">Espera o tempo indicado</comment>
+        <next>
+          <block type="limpar_lcd" id="55">
+            <comment pinned="false" h="80" w="160">Limpa o LCD</comment>
+            <next>
+              <block type="delay" id="58">
+                <field name="milisegundos">1000</field>
+                <comment pinned="false" h="80" w="160">Espera o tempo indicado</comment>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+</xml>

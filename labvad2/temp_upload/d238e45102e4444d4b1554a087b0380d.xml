@@ -1,0 +1,199 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="limpar_lcd" id="184" x="100" y="-347">
+    <next>
+      <block type="escrever_lcd" id="170">
+        <field name="texto">Proj: LABVAD/RNP</field>
+        <field name="numero_linha">1</field>
+        <next>
+          <block type="delay" id="190">
+            <field name="milisegundos">1000</field>
+            <next>
+              <block type="escrever_lcd" id="179">
+                <field name="texto">Sejam Bem-vindos</field>
+                <field name="numero_linha">2</field>
+                <next>
+                  <block type="delay" id="193">
+                    <field name="milisegundos">1000</field>
+                    <next>
+                      <block type="acender_led" id="132">
+                        <field name="cor_led">#ff0000</field>
+                        <next>
+                          <block type="escrever_display_7s" id="133">
+                            <field name="numerosD7S">9</field>
+                            <next>
+                              <block type="delay" id="134">
+                                <field name="milisegundos">1000</field>
+                                <next>
+                                  <block type="acender_led" id="135">
+                                    <field name="cor_led">#ffff00</field>
+                                    <next>
+                                      <block type="escrever_display_7s" id="136">
+                                        <field name="numerosD7S">8</field>
+                                        <next>
+                                          <block type="delay" id="137">
+                                            <field name="milisegundos">1000</field>
+                                            <next>
+                                              <block type="acender_led" id="138">
+                                                <field name="cor_led">#00ff00</field>
+                                                <next>
+                                                  <block type="escrever_display_7s" id="139">
+                                                    <field name="numerosD7S">7</field>
+                                                    <next>
+                                                      <block type="delay" id="140">
+                                                        <field name="milisegundos">1000</field>
+                                                        <next>
+                                                          <block type="apagar_led" id="141">
+                                                            <field name="cor_led">#ff0000</field>
+                                                            <next>
+                                                              <block type="escrever_display_7s" id="142">
+                                                                <field name="numerosD7S">6</field>
+                                                                <next>
+                                                                  <block type="delay" id="143">
+                                                                    <field name="milisegundos">1000</field>
+                                                                    <next>
+                                                                      <block type="apagar_led" id="144">
+                                                                        <field name="cor_led">#ffff00</field>
+                                                                        <next>
+                                                                          <block type="escrever_display_7s" id="145">
+                                                                            <field name="numerosD7S">5</field>
+                                                                            <next>
+                                                                              <block type="delay" id="146">
+                                                                                <field name="milisegundos">1000</field>
+                                                                                <next>
+                                                                                  <block type="apagar_led" id="147">
+                                                                                    <field name="cor_led">#00ff00</field>
+                                                                                    <next>
+                                                                                      <block type="escrever_display_7s" id="148">
+                                                                                        <field name="numerosD7S">4</field>
+                                                                                        <next>
+                                                                                          <block type="delay" id="149">
+                                                                                            <field name="milisegundos">1000</field>
+                                                                                            <next>
+                                                                                              <block type="acender_led" id="150">
+                                                                                                <field name="cor_led">#ff0000</field>
+                                                                                                <next>
+                                                                                                  <block type="escrever_display_7s" id="151">
+                                                                                                    <field name="numerosD7S">3</field>
+                                                                                                    <next>
+                                                                                                      <block type="delay" id="152">
+                                                                                                        <field name="milisegundos">1000</field>
+                                                                                                        <next>
+                                                                                                          <block type="acender_led" id="153">
+                                                                                                            <field name="cor_led">#ffff00</field>
+                                                                                                            <next>
+                                                                                                              <block type="escrever_display_7s" id="154">
+                                                                                                                <field name="numerosD7S">2</field>
+                                                                                                                <next>
+                                                                                                                  <block type="delay" id="155">
+                                                                                                                    <field name="milisegundos">1000</field>
+                                                                                                                    <next>
+                                                                                                                      <block type="acender_led" id="156">
+                                                                                                                        <field name="cor_led">#00ff00</field>
+                                                                                                                        <next>
+                                                                                                                          <block type="escrever_display_7s" id="157">
+                                                                                                                            <field name="numerosD7S">1</field>
+                                                                                                                            <next>
+                                                                                                                              <block type="delay" id="158">
+                                                                                                                                <field name="milisegundos">1000</field>
+                                                                                                                                <next>
+                                                                                                                                  <block type="apagar_led" id="159">
+                                                                                                                                    <field name="cor_led">#ff0000</field>
+                                                                                                                                    <next>
+                                                                                                                                      <block type="escrever_display_7s" id="160">
+                                                                                                                                        <field name="numerosD7S">0</field>
+                                                                                                                                        <next>
+                                                                                                                                          <block type="apagar_led" id="161">
+                                                                                                                                            <field name="cor_led">#ffff00</field>
+                                                                                                                                            <next>
+                                                                                                                                              <block type="apagar_led" id="162">
+                                                                                                                                                <field name="cor_led">#00ff00</field>
+                                                                                                                                                <next>
+                                                                                                                                                  <block type="delay" id="163">
+                                                                                                                                                    <field name="milisegundos">1000</field>
+                                                                                                                                                    <next>
+                                                                                                                                                      <block type="limpar_display_7s" id="164">
+                                                                                                                                                        <next>
+                                                                                                                                                          <block type="limpar_lcd" id="198">
+                                                                                                                                                            <next>
+                                                                                                                                                              <block type="delay" id="165">
+                                                                                                                                                                <field name="milisegundos">1000</field>
+                                                                                                                                                              </block>
+                                                                                                                                                            </next>
+                                                                                                                                                          </block>
+                                                                                                                                                        </next>
+                                                                                                                                                      </block>
+                                                                                                                                                    </next>
+                                                                                                                                                  </block>
+                                                                                                                                                </next>
+                                                                                                                                              </block>
+                                                                                                                                            </next>
+                                                                                                                                          </block>
+                                                                                                                                        </next>
+                                                                                                                                      </block>
+                                                                                                                                    </next>
+                                                                                                                                  </block>
+                                                                                                                                </next>
+                                                                                                                              </block>
+                                                                                                                            </next>
+                                                                                                                          </block>
+                                                                                                                        </next>
+                                                                                                                      </block>
+                                                                                                                    </next>
+                                                                                                                  </block>
+                                                                                                                </next>
+                                                                                                              </block>
+                                                                                                            </next>
+                                                                                                          </block>
+                                                                                                        </next>
+                                                                                                      </block>
+                                                                                                    </next>
+                                                                                                  </block>
+                                                                                                </next>
+                                                                                              </block>
+                                                                                            </next>
+                                                                                          </block>
+                                                                                        </next>
+                                                                                      </block>
+                                                                                    </next>
+                                                                                  </block>
+                                                                                </next>
+                                                                              </block>
+                                                                            </next>
+                                                                          </block>
+                                                                        </next>
+                                                                      </block>
+                                                                    </next>
+                                                                  </block>
+                                                                </next>
+                                                              </block>
+                                                            </next>
+                                                          </block>
+                                                        </next>
+                                                      </block>
+                                                    </next>
+                                                  </block>
+                                                </next>
+                                              </block>
+                                            </next>
+                                          </block>
+                                        </next>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+</xml>

@@ -1,0 +1,24 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="acender_led" id="3" x="101" y="38">
+    <field name="cor_led">#ff0000</field>
+    <comment pinned="false" h="80" w="160">Acende o LED com a cor indicada</comment>
+    <next>
+      <block type="delay" id="6">
+        <field name="milisegundos">1000</field>
+        <comment pinned="false" h="80" w="160">Espera  o tempo indicado</comment>
+        <next>
+          <block type="apagar_led" id="9">
+            <field name="cor_led">#ff0000</field>
+            <comment pinned="false" h="80" w="160">Apaga o LED com a cor indicada</comment>
+            <next>
+              <block type="delay" id="14">
+                <field name="milisegundos">1000</field>
+                <comment pinned="false" h="80" w="160">Espera o tempo Indicado</comment>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+</xml>
