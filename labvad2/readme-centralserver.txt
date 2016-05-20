@@ -21,6 +21,7 @@ Para instalar o servidor central, é necessária a instalação da infra-estrutu
 
 1 - Instalar o Apache, o PHP e o Mysql na máquina Ubuntu:
 
+
    sudo apt-get install apache2 php5
    sudo apt-get install php5-mysql   # instala a conexão php-mysql (PDO)
    sudo service apache2 restart      # é necessário restartar o apache após instalar o PDO senão vai dar erro qdo for conectar no banco.
@@ -28,6 +29,12 @@ Para instalar o servidor central, é necessária a instalação da infra-estrutu
    sudo apt-get install mysql-server
    sudo apt-get install mysql-workbench
 
+0.1) Instalar o ubuntu (testado na versão 16.04)
+
+   sudo apt-get install mysql-server apache2 libapache2-mod-php7.0 php7.0 php7.0-mysql phpmyadmin
+   sudo apt install lamp-server^
+   sudo apt-get install mysql-server
+   sudo apt-get install mysql-workbench
 
 2 - Copiar o sistema labvad (pasta labvad-centralserver) para o Apache (na pasta /var/www ou /var/www/html, dependendo da versão do apache instalada):
 
